@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4B66EA</color>
+    <color name="colorPrimaryDark">#4B66EA</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- 主题字体色系 -->
+    <color name="colorTxtPrimaryWhite">#ffffff</color>
+    <color name="colorTxtPrimaryLight">#969696</color>
+    <color name="colorTxtPrimaryMedium">#696969</color>
+    <color name="colorTxtPrimaryDark">#131313</color>
+    <color name="colorTxtPrimaryB">#3F67E6</color>
+    <!-- 主题色系 -->
+    <color name="color_9d1bb2">#9d1bb2</color>
+    <!-- 主题背景色 -->
+    <color name="base_bg">#ffffff</color>
+    <!-- 主题前景色 -->
+    <color name="base_fg">#ffffff</color>
+    <!-- 主页(MainActivity)tab按钮文字 -->
+    <color name="main_tab_text_normal">#2a2a2a</color>
+    <color name="main_tab_text_focused">#3F67E6</color>
+    <!-- 首页(home)tab按钮文字 -->
+    <color name="home_tab_text_normal">#2a2a2a</color>
+    <color name="home_tab_text_focused">#9d1bb2</color>
+    <!-- 发现页tab按钮文字 -->
+    <color name="find_tab_text_normal">#969696</color>
+    <color name="find_tab_text_focused">#ffffff</color>
+    <!-- 词汇页tab按钮文字 -->
+    <color name="word_tab_text_normal">#2a2a2a</color>
+    <color name="word_tab_text_focused">#ffffff</color>
+    <color name="word_tab_bg_normal">#fbf5f4</color>
+    <color name="word_tab_bg_focused">#9d1bb2</color>
+    <!-- 句子页tab按钮文字 -->
+    <color name="sentence_tab_text_normal">#2a2a2a</color>
+    <color name="sentence_tab_text_focused">#ffffff</color>
+    <color name="sentence_tab_bg_normal">#fbf5f4</color>
+    <color name="sentence_tab_bg_focused">#9d1bb2</color>
+    <!-- 个人信息页(别人)tab按钮文字 -->
+    <color name="user_info_other_tab_text_normal">#2a2a2a</color>
+    <color name="user_info_other_tab_text_focused">#9d1bb2</color>
+    <!-- 关注与粉丝页tab按钮文字 -->
+    <color name="attention_tab_text_normal">#2a2a2a</color>
+    <color name="attention_tab_text_focused">#9d1bb2</color>
+    <!-- 访客页tab按钮文字 -->
+    <color name="visitor_tab_text_normal">#2a2a2a</color>
+    <color name="visitor_tab_text_focused">#9d1bb2</color>
+    <!-- 翻译页tab按钮文字 -->
+    <color name="translate_tab_text_normal">#696969</color>
+    <color name="translate_tab_text_focused">#696969</color>
+    <!-- 个人信息说说页tab按钮文字 -->
+    <color name="blog_tab_text_normal">#2a2a2a</color>
+    <color name="blog_tab_text_focused">#9d1bb2</color>
+    <!--黑色-->
+    <color name="black">#000000</color>
+    <color name="black_title">#131313</color>
+    <color name="black_text_edit">#969696</color>
+    <color name="black_text_edit_hint">#969696</color>
+    <color name="black_text_dark">#131313</color>
+    <color name="black_text_medium">#696969</color>
+    <color name="black_text_light">#969696</color>
+
+    <!--白色-->
+    <color name="white">#FFFFFF</color>
+    <!-- 分隔线颜色 -->
+    <color name="gray_line">#e5e5e5</color>
+    <!-- 分隔线颜色(深) -->
+    <color name="dark_gray_line">#afafaf</color>
+    <!-- 灰色字颜色 -->
+    <color name="gray_text">#949494</color>
+    <!-- 灰色圈 -->
+    <color name="gray_avatar_circle">#e2e2e2</color>
+    <!-- 黑色字体 -->
+    <color name="black_text2">#484545</color>
+    <!-- 灰白色 -->
+    <color name="graywhite">#f2f2f2</color>
+    <!-- 浅灰色字体 -->
+    <color name="lightgray_text">#b6b6b6</color>
+    <!-- 亚浅灰色 -->
+    <color name="sublightgray_text">#a1a1a1</color>
+    <!-- 超浅灰色 -->
+    <color name="superlightgray_text">#9f9f9f</color>
+    <!-- 略深灰色 -->
+    <color name="deepgray_text">#6a6a6a</color>
+    <!-- hint -->
+    <color name="hintcolor">#f0d4e1</color>
+    <!-- hint_light -->
+    <color name="hintcolor_light">#c7c7c7</color>
+    <!-- main_black -->
+    <color name="main_black_bg">#f6393939</color>
+    <!--透明色-->
+    <color name="transparent">#00000000</color>
+    <!--说说相关-->
+    <color name="default_clickable_color">#cccccc</color>
+    <color name="name_selector_color">#cccccc</color>
+    <color name="color_8290AF">#8290AF</color>
+    <color name="color_232323">#232323</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <!--列表刷新提示-->
+    <color name="refresh_list_view_tip">#c5c5c5</color>
+    <!-- 蓝色 -->
+    <color name="colorSendName">#9966cc</color>
+    <color name="colorSendName1">#FF3163</color>
+    <color name="colorSendName2">#973365</color>
+    <color name="colorSendName3">#006599</color>
+    <color name="colorSendName4">#D07E44</color>
+    <color name="colorSendName5">#97BC87</color>
+    <color name="colorSendName6">#FFAE1F</color>
+    <color name="colorSendName7">#FF437D</color>
+
+    <color name="main_color">#FDF298</color>
+    <color name="color_c1c1c1">#c1c1c1</color>
+    <color name="color_ffc77f">#ffc77f</color>
+    <color name="color_ffdbae">#ffdbae</color>
+    <color name="color_959595">#959595</color>
+    <color name="color_E5E5E5">#E5E5E5</color>
+
+
+    <!--// 屎黄色背景-->
+    <color name="color_FFF4E5">#FFF4E5</color>
+    <color name="color_9a9a9a">#9A9A9A</color>
+    <color name="color_a4a4a4">#A4A4A4</color>
+    <color name="color_4d4a4a">#4d4a4a</color>
+    <color name="color_a2a2a2">#a2a2a2</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="color_cdcdcd">#CDCDCD</color>
+    <color name="color_474747">#474747</color>
+    <color name="color_878787">#878787</color>
+    <color name="color_c5c5c5">#c5c5c5</color>
+    <color name="color_b9b9b9">#b9b9b9</color>
+    <color name="color_bfbfbf">#bfbfbf</color>
+    <color name="color_4f8cfe">#4F8CFE</color>
+    <color name="color_fe56d0">#fe56d0</color>
+    <color name="color_59daba">#59daba</color>
+    <color name="color_ff7030">#ff7030</color>
+    <color name="color_b4b4b4">#b4b4b4</color>
+    <color name="color_bbbbbb">#bbbbbb</color>
+    <color name="color_26c3a0">#26C3A0</color>
+    <color name="color_e8ae22">#E8AE22</color>
+    <color name="color_ff7947">#FF7947</color>
+    <color name="color_3f3f3f">#3F3F3F</color>
+    <color name="color_fffdf0">#fffdf0</color>
+    <color name="color_f4d64c">#f4d64c</color>
+    <color name="color_f5c35a">#f5c35a</color>
+    <color name="color_dba039">#dba039</color>
+    <color name="color_ed7d37">#ed7d37</color>
+    <color name="color_f2cb49">#f2cb49</color>
+
+    <color name="color_595959">#595959</color>
+    <color name="color_8a8a8a">#8a8a8a</color>
+    <color name="color_ffcd48">#ffcd48</color>
+    <color name="color_ffc579">#ffc579</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_555555">#555555</color>
+    <color name="color_fffef6">#fffef6</color>
+    <color name="color_e59e0b">#e59e0b</color>
+    <color name="color_f9d614">#f9d614</color>
+    <color name="color_828282">#828282</color>
+    <color name="color_fcf0af">#fcf0af</color>
+    <color name="color_BB7D22">#BB7D22</color>
+    <color name="color_79C2FF">#79C2FF</color>
+    <color name="color_a0a0a0">#a0a0a0</color>
+    <color name="color_f9f9f9">#f9f9f9</color>
+
+    <color name="group_list_black_textview">#353535</color>
+    <color name="group_list_gray">#999999</color>
+    <color name="group_list_liner">#e4e4e4</color>
+    <color name="main_title_backgroud">#F2F2F2</color>
+    <color name="main_regist">#ffffff</color>
+    <color name="button_backgroud">#0195ff</color>
+    <color name="de_title_bg">#0195ff</color>
+    <!--<color name="base_bg">#f0f0f6</color>-->
+    <color name="rc_text_color_secondary_inverse">@android:color/white</color>
+
+    <!--actionbar-->
+    <color name="de_actionbar_bg">#0195ff</color>
+    <!---->
+    <color name="de_action_color">#3498DB</color>
+    <color name="de_action_white">@android:color/white</color>
+    <color name="de_transparent">#00000000</color>
+
+    <color name="de_draft_color">#cb120f</color>
+    <color name="main_theme_color">#0195ff</color>
+
+    <color name="press">#e8e8e8</color>
+
+
+    <color name="text_line_color">#dfdfdd</color>
+    <color name="text_black_color">#333333</color>
+    <color name="text_tips_color">#666666</color>
+    <color name="mine_head_color">#cccccc</color>
+    <color name="text_color">#353535</color>
+
+    <!--SWITCH-->
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+    <color name="ksw_md_solid_shadow">#33000000</color>
+    <color name="ksw_md_solid_normal">#ECECEC</color>
+    <color name="ksw_md_solid_disable">#FFFFFF</color>
+    <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+
+    <color name="ac_filter_string_color">#0099ff</color>
+
+    <color name="red_1">#cb120f</color>
+</resources>

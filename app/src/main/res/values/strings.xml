@@ -1,0 +1,266 @@
+<resources>
+    <!-- APP名称 -->
+    <string name="app_name">小k英语口袋</string>
+
+    <!-- 系统 -->
+    <string name="system_tip_a">当前网络不可用！</string>
+    <string name="system_tip_b">网络异常，请稍后再试！</string>
+    <string name="system_tip_c"></string>
+    <string name="system_tip_please_login">请先登录！</string>
+
+    <!-- 主页 -->
+    <string name="main_tab_home">广场</string>
+    <string name="main_tab_find">发现</string>
+    <string name="main_tab_news">聊天</string>
+    <string name="main_tab_mine">我</string>
+
+    <!-- 邮箱注册页面 -->
+    <string name="register_email_title">注册</string>
+    <string name="register_email_upload_avatar">头像</string>
+    <string name="register_email_txt_email">邮 箱</string>
+    <string name="register_email_txt_password">密 码</string>
+    <string name="register_email_btn_verification_code">验证码</string>
+    <string name="register_email_txt_verification_code">验证码</string>
+    <string name="register_email_txt_name">昵 称</string>
+
+    <string name="register_email_edit_hint_email">邮 箱</string>
+    <string name="register_email_edit_hint_password">密 码</string>
+    <string name="register_email_edit_hint_verification_code">验证码</string>
+    <string name="register_email_edit_hint_name">昵 称</string>
+
+    <string name="register_email_txt_male">帅哥</string>
+    <string name="register_email_txt_female">美女</string>
+    <string name="register_email_btn_ok">完 成</string>
+    <string name="register_email_btn_no_email">没有邮箱？用户名注册</string>
+
+    <!-- 登录页面 -->
+    <string name="login_title">登录</string>
+    <string name="login_txt_username">邮 箱</string>
+    <string name="login_txt_password">密 码</string>
+    <string name="login_edit_hint_username">邮 箱</string>
+    <string name="login_edit_hint_password">密 码</string>
+    <string name="login_btn_ok">确 定</string>
+    <string name="login_btn_forget_password">忘记密码？</string>
+
+    <!-- 忘记密码页面 -->
+    <string name="forget_password_title">修改密码</string>
+    <string name="forget_password_txt_email">邮箱</string>
+    <string name="forget_password_txt_password">新密码</string>
+    <string name="forget_password_txt_confirm_password">确认密码</string>
+    <string name="forget_password_edit_hint_email">邮 箱</string>
+    <string name="forget_password_edit_hint_password">密 码</string>
+    <string name="forget_password_edit_hint_confirm_password">确认密码</string>
+    <string name="forget_password_btn_verification_code">验证码</string>
+    <string name="forget_password_txt_verification_code">验证码</string>
+    <string name="forget_password_edit_hint_verification_code">验证码</string>
+    <string name="forget_password_btn_ok">确 定</string>
+
+    <!-- 首页 -->
+    <string name="home_title">广场</string>
+    <string name="home_txt_publish">我要说</string>
+
+    <!-- 发现 -->
+    <string name="find_title">发现</string>
+    <string name="find_tab_word">单词</string>
+    <string name="find_tab_sentence">句子</string>
+    <string name="find_tab_music">歌曲</string>
+
+    <!-- 个人中心页面 -->
+    <string name="mine_title">个人中心</string>
+    <string name="mine_txt_attention">关注与粉丝</string>
+    <string name="mine_txt_visitor">最近访客</string>
+    <string name="mine_txt_blog">我的说说</string>
+    <string name="mine_txt_vip">VIP</string>
+    <string name="mine_txt_gift">礼物</string>
+    <string name="mine_txt_wallet">钱包</string>
+    <string name="mine_txt_pal_beg">笔友请求</string>
+    <string name="mine_txt_pal">笔友</string>
+    <string name="mine_txt_letter">书信往来</string>
+    <string name="mine_txt_settings">设置</string>
+    <string name="mine_btn_edit">编辑资料</string>
+
+    <!-- 个人中心-设置页面 -->
+    <string name="settings_btn_settings">设置</string>
+
+    <!-- 个人信息页面(自己) -->
+    <string name="user_info_title_me">我</string>
+    <string name="user_info_txt_name">昵称</string>
+    <string name="user_info_txt_constellation">星座</string>
+    <string name="user_info_txt_birth">生日</string>
+    <string name="user_info_txt_city">城市</string>
+
+    <!-- 个人信息页面(别人) -->
+    <string name="user_info_other_title_ta">TA</string>
+    <string name="user_info_other_txt_name">昵称</string>
+    <string name="user_info_other_txt_constellation">星座</string>
+    <string name="user_info_other_txt_birth">生日</string>
+    <string name="user_info_other_txt_city">TA在</string>
+    <string name="user_info_other_txt_blog">TA的说说</string>
+    <!--<string name="user_info_other_txt_attention">关注</string>-->
+    <string name="user_info_other_tab_letter">书信</string>
+    <string name="user_info_other_tab_chat">聊天</string>
+
+    <!-- 个人信息-编辑页面 -->
+    <string name="user_info_edit_title">编辑个人资料</string>
+    <string name="user_info_edit_txt_avatar">头像</string>
+    <string name="user_info_edit_txt_album">相册</string>
+    <string name="user_info_edit_txt_name">昵称</string>
+    <string name="user_info_edit_txt_constellation">星座</string>
+    <string name="user_info_edit_txt_birth">生日</string>
+    <string name="user_info_edit_txt_city">城市</string>
+
+    <!-- 个人信息-编辑-头像 -->
+    <string name="user_info_edit_avatar_title">更改头像</string>
+
+    <!-- 个人信息-编辑-相册 -->
+    <string name="user_info_edit_album_title">更改相册</string>
+
+    <!-- 个人信息-编辑-昵称 -->
+    <string name="user_info_edit_name_title">更改昵称</string>
+    <string name="user_info_edit_name_edit_hint_content">请输入昵称...</string>
+
+    <!-- 个人信息-编辑-生日 -->
+    <string name="user_info_edit_birth_title">更改生日</string>
+    <string name="user_info_edit_birth_txt_age">年龄</string>
+    <string name="user_info_edit_birth_txt_constellation">星座</string>
+    <string name="user_info_edit_birth_txt_tip">选择你的出生日期，系统会自动算出年龄和星座。</string>
+
+    <!-- 个人信息-编辑-城市 -->
+    <string name="user_info_edit_city_title">更改城市</string>
+
+    <!-- 个人信息-编辑-修改密码 -->
+    <string name="user_info_edit_password_title">更改密码</string>
+    <string name="user_info_edit_password_txt_password">新密码</string>
+    <string name="user_info_edit_password_edit_hint_password">6~12个字符</string>
+    <string name="user_info_edit_password_txt_confirm_password">确认密码</string>
+    <string name="user_info_edit_password_edit_hint_confirm_password">必须与新密码一致</string>
+
+    <!-- 说说列表（公开的）页面 -->
+    <string name="blog_public_title"></string>
+
+    <!-- 说说详情（公开的）页面 -->
+    <string name="blog_info_public_txt_comment">评论</string>
+    <string name="blog_info_public_txt_like">点赞</string>
+    <string name="blog_info_public_btn_comment">我来评论</string>
+    <string name="blog_info_public_btn_like">赞一个</string>
+
+    <!-- 说说评论页面 -->
+    <string name="blog_comment_title">评论</string>
+    <string name="blog_comment_tip_a">请填写评论内容！</string>
+    <string name="blog_comment_tip_b">评论成功！</string>
+    <string name="blog_comment_tip_c">评论失败！</string>
+    <string name="blog_comment_tip_d"></string>
+
+    <!-- 说说发布页面 -->
+    <string name="blog_publish_title">发个说说</string>
+    <string name="blog_publish_edit_hint_content">请输入内容...</string>
+    <string name="blog_publish_txt_img">拖拽图片可调整顺序</string>
+
+    <!-- 翻译页面 -->
+    <string name="translate_title">翻译</string>
+    <string name="translate_txt_ch">中文</string>
+    <string name="translate_txt_en">英文</string>
+    <string name="translate_edit_hint_content">请输入您想翻译的文字</string>
+    <string name="translate_txt_original_word">翻译内容：</string>
+    <string name="translate_txt_translation_word">翻译结果：</string>
+
+    <!-- 音乐详情页面 -->
+    <string name="music_info_txt_description">简介：</string>
+    <string name="music_info_txt_lyric">歌词：</string>
+
+    <!-- 图片浏览器页面 -->
+    <string name="photo_browser_indicator">%1$d/%2$d</string>
+
+    <!-- 消息页面 -->
+    <string name="news_title">聊天</string>
+    <string name="news_tab_chat">聊天</string>
+
+    <!-- 聊天页面 -->
+    <string name="chat_txt_pay">每日前%1$d条免费；非VIP每条花费%2$s%3$s；VIP无限量。</string>
+
+    <!-- 笔友请求-（发出的）页面 -->
+    <string name="pal_beg_send_title">我发出的笔友请求</string>
+
+    <!-- 笔友请求-（接收的）页面 -->
+    <string name="pal_beg_receive_title">我收到的笔友请求</string>
+    <string name="pal_beg_receive_list_item_btn_refuse">拒绝</string>
+    <string name="pal_beg_receive_list_item_btn_accept">接受</string>
+
+    <!-- 笔友-（我包养的）页面 -->
+    <string name="pal_send_title">我的笔友</string>
+
+    <!-- 笔友-（包养我的）页面 -->
+    <string name="pal_receive_title">我的笔友</string>
+
+    <!-- 书信-（发出的）页面 -->
+    <string name="letter_send_title">我发出的</string>
+
+    <!-- 书信-（接收的）页面 -->
+    <string name="letter_receive_title">我收到的</string>
+
+    <!-- 书信-发布页面 -->
+    <string name="letter_publish_title">书信</string>
+    <string name="letter_publish_txt_pay">每日前%1$d封免费；非VIP每封花费%2$s%3$s；VIP无限量。</string>
+    <string name="letter_publish_edit_hint_content">请输入内容...</string>
+
+    <!-- 关注与粉丝页面 -->
+    <string name="attention_tab_send">关注</string>
+    <string name="attention_tab_receive">粉丝</string>
+
+    <!-- 访客页面 -->
+    <string name="visitor_tab_send">我看过谁</string>
+    <string name="visitor_tab_receive">谁看过我</string>
+
+    <!-- 个人信息说说页面 -->
+    <string name="blog_tab_private">我发布的</string>
+    <string name="blog_tab_i_comment">我评论的</string>
+    <string name="blog_other_title">TA的说说</string>
+
+    <!-- 钱包页面 -->
+    <string name="wallet_title">我的钱包</string>
+    <string name="wallet_txt_amount_active">可用</string>
+    <string name="wallet_txt_amount_withdraw">可提现</string>
+    <string name="wallet_btn_recharge">充值</string>
+    <string name="wallet_btn_withdraw">提现</string>
+
+    <!-- 充值页面 -->
+    <string name="wallet_recharge_title">充值</string>
+
+    <!-- 设置页面 -->
+    <string name="settings_title">系统设置</string>
+    <string name="settings_txt_password">修改密码</string>
+    <string name="settings_txt_contact">联系我们</string>
+    <string name="settings_txt_version">版本信息</string>
+    <string name="settings_btn_logout">退出账号</string>
+
+    <!-- 联系我们页面 -->
+    <string name="contact_title">联系我们</string>
+    <string name="contact_txt_1">您可以通过以下联系方式向我们反馈意见和建议：</string>
+    <string name="contact_txt_2">1、发送电子邮件到support_it@foxmail.com。</string>
+
+    <!-- 对话窗口-图片选择 -->
+    <string name="dialog_add_image_option_take_picture">拍照</string>
+    <string name="dialog_add_image_option_choose_picture">文件</string>
+    <string name="dialog_add_image_option_cancel">取消</string>
+
+    <!-- 对话窗口-书信详情（接收的） -->
+    <string name="dialog_letter_receive_info_option_refuse">拒绝</string>
+    <string name="dialog_letter_receive_info_option_accept">接受</string>
+    <string name="dialog_letter_receive_info_option_kiss">回TA一个湿哒哒的吻</string>
+    <string name="dialog_letter_receive_info_option_cancel">取消</string>
+
+    <!-- 对话窗口-个人信息 -->
+    <string name="dialog_user_info_option_pal_beg_send">请求加为笔友</string>
+    <string name="dialog_user_info_option_cancel">取消</string>
+
+    <!-- CollapsibleTextView -->
+    <string name="collapsibletextview_txt_expand_status_expanded">收起</string>
+    <string name="collapsibletextview_txt_expand_status_notexpanded">全文</string>
+
+    <!-- xxxxx -->
+    <string name="xxxxx">xxxxx</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+</resources>
