@@ -29,7 +29,7 @@ import butterknife.BindView;
 public class PhotoBrowserFragment extends BaseFragment {
 
     private AppComponent mAppComponent;
-    private ImageLoader mImageLoader;//用于加载图片的管理类,默认使用 Glide,使用策略模式,可替换框架
+    private ImageLoader mImageLoader; // 用于加载图片的管理类,默认使用 Glide,使用策略模式,可替换框架
     private String url;
 
     @BindView(R.id.photo_view)
