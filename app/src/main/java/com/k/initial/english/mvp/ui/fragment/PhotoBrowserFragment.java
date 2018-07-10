@@ -59,8 +59,6 @@ public class PhotoBrowserFragment extends BaseFragment {
         mImageLoader = mAppComponent.imageLoader();
 
         url = null != getArguments() ? getArguments().getString("url") : null;
-//        mPhotoView.setImageURI(Uri.parse(url));
-//        mPhotoView.setImageResource(R.drawable.default_avatar);
         mImageLoader.loadImage(getContext(),
                 ImageConfigImpl
                         .builder()

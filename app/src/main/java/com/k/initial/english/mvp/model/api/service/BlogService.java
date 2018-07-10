@@ -1,5 +1,6 @@
 package com.k.initial.english.mvp.model.api.service;
 
+import com.k.initial.english.mvp.model.entity.BaseJson;
 import com.k.initial.english.mvp.model.entity.BlogEntity;
 
 import java.util.List;

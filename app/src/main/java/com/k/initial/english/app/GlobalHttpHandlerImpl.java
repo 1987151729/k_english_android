@@ -18,6 +18,9 @@ package com.k.initial.english.app;
 import android.content.Context;
 import android.text.TextUtils;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 import com.jess.arms.http.GlobalHttpHandler;
 import com.jess.arms.http.log.RequestInterceptor;
@@ -28,6 +31,7 @@ import java.util.List;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
+import okhttp3.ResponseBody;
 import timber.log.Timber;
 
 /**
@@ -74,6 +78,24 @@ public class GlobalHttpHandlerImpl implements GlobalHttpHandler {
                     如果使用okhttp将新的请求,请求成功后,将返回的response  return出去即可
                     如果不需要返回新的结果,则直接把response参数返回出去 */
 
+//        Timber.w("xxxxxxxxxxxxxxxxxxxxxxxxxxxA ------> " + httpResult);
+
+        try {
+            // 重新构造response（解析出数据层）
+            JsonObject jsonObject = (JsonObject) ArmsUtils.obtainAppComponentFromContext(context).gson().fromJson(httpResult, JsonObject.class);
+            JsonElement jsonElement = jsonObject.get("data");
+            String dataStr = ArmsUtils.obtainAppComponentFromContext(context).gson().toJson(jsonElement);
+
+//        Timber.w("xxxxxxxxxxxxxxxxxxxxxxxxxxxB ------> " + dataStr);
+
+
+            ResponseBody body = ResponseBody.create(response.body().contentType(), dataStr);
+            response = response.newBuilder()
+                    .body(body)
+                    .headers(response.headers())
+                    .build();
+        } catch (Exception e) {
+        }
         return response;
     }
 
